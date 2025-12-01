@@ -3,7 +3,7 @@
 int main(void)
 {
     // 1. Bật clock cho Port A và Port C
-    RCC->APB2ENR |= (1<<2);  // Bit 2: IOPAEN
+   
     RCC->APB2ENR |= (1<<4);  // Bit 4: IOPCEN
 
     // 2. Cấu hình PA0 làm Input (Floating)
